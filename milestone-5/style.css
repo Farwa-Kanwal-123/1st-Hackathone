@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    padding: 0;
+    background: hsl(0, 0%, 94%);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #2178cf;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#resume-form {
+    max-width: 600px;
+    margin: auto;
+    background: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid #1c6be297;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50;
+}
+
+legend {
+    font-weight: 700;
+    color: #082b4f;
+}
+
+input,
+textarea {
+    margin-top: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #1cc1e2;
+    border-radius: 5px;
+    width: calc(100% - 1px);
+}
+
+textarea:focus {
+    border: 1px solid rgba(0, 0, 0, 0.323);
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #025ef2;
+    color: rgba(255, 255, 255, 0.942);
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none;
+}
+
+input .submit {
+    text-align: center;
+    background-color: #1cc1e2e1;
+}
+
+button:hover {
+    background-color: #0db877af;
+}
+
+#resume-display{
+    max-width: 600px;
+    margin: auto;
+    background: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    /* making the resume editable */
+    outline:none;
+}
