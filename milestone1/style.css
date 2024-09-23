@@ -18,31 +18,55 @@ body {
 
 /* Left Section Styling */
 .left-section {
-    background-color: #2c2c2cfd;
+    background-color: #e639b2;
     color: white;
     padding: 20px;
     width: 35%;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px ;
     text-align: center;
-    border-right: 5px solid #e639b2;
+    border-right: 5px solid black;
 }
 
 .profile-picture {
     width: 150px;
     height: 150px;
-    margin-top: 10%;
     border-radius: 50%;
-    border: 5px solid #e639d5;
+    margin-top: 10%;
+    border: 2px dashed rgb(241, 234, 234);
+    box-shadow: 0 0 35px rgb(8, 8, 8);
     margin-bottom: 20px;
 }
 
-h1 {
-    font-size: 24px;
+
+.left-section h3 {
+    font-size: 18px;
+    margin:10% 0;
+    padding: 2%;
+    color:white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}
+.left-section p{
+    color:rgb(248, 237, 237)
+}
+
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+.right-section h1{
+    font-size: 34px;
     margin: 10px 0;
     margin-bottom: 30px;
     text-align: center;
+    border-radius: 10px;
+    text-decoration: underline;
 }
-
-h3 {
+.right-section h3 {
     font-size: 18px;
     padding: 2%;
     margin: 20px 0 10px;
@@ -52,33 +76,25 @@ h3 {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
-ul {
+.right-section ul {
     list-style-type: fill round;
     padding: 10;
     margin: 10px 0;
 }
 
-ul li {
+.right-section ul li {
     margin: 5px 0;
 }
-
-/* Right Section Styling */
-.right-section {
-    padding: 20px;
-    width: 65%;
-}
-
-button {
+.right-section button{
     font-family: Arial, sans-serif;
     border-radius: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: #f509d290;
     cursor: pointer;
     margin-top: 10px;
     margin-left: 30%;
     font-size: 18px;
 }
 
-button:hover {
-    background-color: #f509d290;
+.right-section button:hover {
+    background-color: #f509d2fa;
 }
