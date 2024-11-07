@@ -6,8 +6,10 @@ toggleButton.addEventListener('click', function () {
     //condition for hide /show section when we click on b utton
     if (skills.style.display === 'none') {
         skills.style.display = 'block';
+        toggleButton.textContent = 'Hide Skills';
     }
     else {
         skills.style.display = 'none';
+        toggleButton.textContent = 'Show Skills';
     }
 });
