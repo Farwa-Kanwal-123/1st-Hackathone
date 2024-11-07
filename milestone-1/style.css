@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 30px 120px;
+}
+
+.resume-container {
+
+    display: flex;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(55, 52, 64);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    padding: 20px;
+    width: 35%;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+    text-align: center;
+    border-right: 5px solid black;
+}
+
+.profile-picture {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-top: 10%;
+    border: 2px solid rgb(225, 209, 209);
+    box-shadow: 0 0 35px rgb(237, 231, 231);
+    margin-bottom: 20px;
+}
+
+
+.left-section h3 {
+    font-size: 18px;
+    margin:10% 0;
+    padding: 2%;
+    color:white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px white;
+}
+.left-section p{
+    color:rgb(248, 237, 237);
+}
+
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+    line-height: 22px;
+}
+
+.right-section a{
+    color: #222831;
+}
+
+.right-section h1{
+    font-size: 34px;
+    color:#222831;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+.right-section h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color:#222831;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #286FB5;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.right-section p{
+    margin: 0 8px;
+    color:#393E46;
+}
+.right-section ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+    color:#393E46;
+}
+
+.right-section ul li {
+    margin: 5px 0;
+}
+
+
+.right-section button{
+    font-family: Arial, sans-serif;
+    border-radius: 6px;
+    background-color: #05ced9;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 30%;
+    padding:5px 20px;
+    font-size: 18px;
+}
+
+.right-section button:hover {
+    transform:scale(1.08);
+}
